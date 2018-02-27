@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <title>March of the Pigs</title>
+        
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="Content-Language" content="en-US">
+
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <meta name="description" content="An Interactive Showcase of the'March of the Pigs' Typeface">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="author" content="Kendra 'Jolisa' Jackman">
+
+        <meta name="rating" content="general">
+
+        
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+        <link rel="stylesheet" type="text/css" media="(max-width: 500px)" href="mobile.css" />
+        
+
+         <!-- bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <!--my jQuery -->
+        <script type="text/javascript" src="script.js"></script>
+    
+    </head>
+
+    <body>
+        <div class="dark-primary-color">The March of the Pigs
+        </div>
+
+        <header class="container-fluid primary-color">
+            <br>
+            <span class="title">March of the Pigs</span>
+            
+            <span class="subTitle">A Typeface by Juha Korhonen</span>
+        </header>
+        
+        <button>
+            <!--the menu 'hamburger' icon-->
+            <img src="imgs/menuIcon_white.png"/>
+        </button>
+        
+        <nav class="marchin">
+            <p class="navTop">Top</p>
+            <p class="navAbout">About the Designer</p>
+            <p class="navType">Type Sizes</p>
+            <p class="navCharMap">Character Map</p>
+            <p class="navGall">Gallery</p>
+            <p class="navDemo">Demo</p>
+        </nav>
+        
+        <!--the cute 'march of the pigs' official poster-->
+        <div class="banner">
+            <img src="imgs/march-of-the-pigs-font-2-big.png">
+        </div>
+        <br>
+        <!-- The designer's info-->
+        <div class=" container-fluid designer primary-text">
+            <p>This is Juha</p>
+            
+            <div class="profilePic primary-text">
+                <img src="imgs/Juha_Korhonen
+_pic.jpg" class="juha"/>
+
+
+                <h3>A Finnish artist and font designer</h3>
+
+                <h5>
+                    <a href="https://twitter.com/juhakorhonen" class="handle" target="_blank">@Juhakorhonen</a> Seems like a secretive man. You have a better chance of finding bigfoot than finding good personal info on him. Juha created about 427 fonts and occasionally showcases them on his quirky twitter page.
+                    <br>
+                </h5>
+                
+            </div>
+        </div>
+        <br>
+        <!--The character Map of the font-->
+        <div class="typeSizes container-fluid">
+            <h2>Type Sizes</h2>
+            <h4>ft.This little Piggy</h4>
+            
+            <br>
+            <p class="sizeDisplay">100px</p>
+            
+            <p class="marchin sizeXl">Went to the Market</p>
+            
+            <p class="sizeDisplay">80px</p>
+
+            <p class="marchin sizeL">Stayed at home</p>
+            
+            <p class="sizeDisplay">60px</p>
+            <p class="marchin sizeM">Had roast beef</p>
+            
+            <p class="sizeDisplay">40px</p>
+            <p class="marchin sizeS">had none</p>
+            
+            <p class="sizeDisplay">20px</p>
+            <p class="marchin sizeXs"> Cried "wee, wee, wee"
+All the way home.</p>
+        </div>
+        
+        <!--Character Map Section-->
+            <!-- image 1 -->
+        <div class="charMap">
+            
+            <h2>Character Map</h2>
+            
+            <div class="charImgs">
+                <img src="imgs/cm1.png"  class="imgContent">
+            </div>
+            
+            <!-- image 2 -->
+            <div class="charImgs">
+                <img src="imgs/cm2.png"  class="imgContent">
+            </div>
+            
+            <!-- image 3 -->
+            <div class="charImgs">
+                <img src="imgs/cm3.png"  class="imgContent">
+            </div>
+        </div>
+        
+        <div class="gallery desktopOnly">
+            <h2>Gallery</h2>
+            <img src="imgs/1.jpg" class="gallImgs">
+            <img src="imgs/2.jpg" class="gallImgs">
+            <img src="imgs/3.jpg" class="gallImgs">
+            <img src="imgs/4.jpg" class="gallImgs">
+        </div>
+        
+        <!-- Demo -->
+        <div class="demo" ng-app="">
+            <h2>Try The Font</h2>
+            
+            <!--angular-->
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+            
+            <input type="text" ng-model="demo" placeholder="Input text here" maxlength="20">
+            
+            <h1 ng-bind="demo" class="marchin activeDemo"></h1>
+        </div>
+        
+        <footer>
+            <p>©Kendra Jackman | All rights reserved</p>
+        </footer>
+        
+        <div class="bottom">-</div>
+    </body>
+</html>
